@@ -5,5 +5,11 @@ def ave():
         x=int(input("Enter your number:"))
         sum=sum+x
     print(sum/4)
+    
 # 2. כתוב פונקציה המקבלת 2 מספרים, הפונקציה תדפיס את כל המספרים הזוגיים בטווח של שני המספרים שהתקבלו לפונקציה
-
+def evenRange(x,y):
+    for x in range(x,y):
+      if x%2==0:
+         print(x,end=' ')
+            
+# 3.             
