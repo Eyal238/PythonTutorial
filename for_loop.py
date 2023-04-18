@@ -32,3 +32,11 @@ def squares(size):
             p1.forward(size)
             p1.left(90)
         size=size+10
+#  6.  כתוב פונקציה המקבלת 2 פרמטרים, מספר שורות של המטריצה ומספר העמודות. על הפונקציה להדפיס מטריצת כוכביות * כפי המשתנים שהתקבלו לפונקציה
+def matS(x,y):
+    for i in range(x):
+        print()
+        for j in range(y):
+            print("*",end="  ")
+            
+#  7.             
