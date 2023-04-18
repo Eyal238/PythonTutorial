@@ -43,5 +43,11 @@ def matS(x,y):
 #     1
 #     2 2
 #     3 3 3
-#  
+def oAO(x,y):
+    z=x
+    for i in range(x,y):
+       for x in range(z):
+           print(i,end=' ')
+       print()
+       z=z+1 
 
