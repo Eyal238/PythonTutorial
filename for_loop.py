@@ -53,9 +53,9 @@ def oAO(x,y):
 
 #  8. כתוב פונקציה המקבלת משתנתה המהווה אורך של צלע עבור משולש שווה שוקיים  
 #  הפונקציה תדפיס משולש ישר זוית ושווה שוקיים ע"י הכוכביות כפי אורך הצלע שהתקבל לפונקציה דוגמא לאורך 3
-# *
-# * *
-# * * *
+#  *
+#  * *
+#  * * *
 def rightTriagle(x):
     z=0
     for i in range(x):
@@ -64,3 +64,23 @@ def rightTriagle(x):
         print()
         for j in range(z):
             print("*",end="  ")
+# 9. כתוב פונקציה המקבלת גובה של משולש שווה שוקיים, כך שהפונקציה תדפיס משושל כוכביות שווה שוקיים על פי הגובה שהתקבל
+# דוגמא עבור משולש עם גובה 3
+#       *
+#     * * *
+#   * * * * *
+def Triagle(height):
+    fix=height-1
+    base=height+fix
+    x1=base//2
+    x2=x1
+    for i in range(height):
+        print()
+        for j in range(base):
+            if j>=x1 and j<=x2:
+                 print("*",end=" ")
+            else:
+                print(end="  ")
+        x1=x1-1
+        x2=x2+1
+        
