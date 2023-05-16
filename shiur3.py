@@ -6,6 +6,10 @@ print(x*y)
 x=10.5
 y=5.3
 print(x-y)
+# 3. כתוב תוכנית המקבלת מהמקלדת מספר חודשים וממירה ומדפיסה את המספר השנים
+month=int(input("Enter months:"))
+years=month/12
+print(round(years,3))
 # 5. כתוב תוכנית שבוחרת שני מספרים בין 1 ל-10 באופן רנדומלי ומדפיסה את מכפלתם.
 import random
 x=random.randrange(1,11)
