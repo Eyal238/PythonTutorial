@@ -2,4 +2,11 @@
 def f1():
     name=input("Enter name student:")
     print("Hello",name)
-# 2. 
+# 2.  כתוב פונקציה המקבלת מספר שלם, הפונקציה תדפיס את מספר השלמים המתקבלים בחלוקה ב-5.
+def f2(num):
+    print(num//5) 
+# 3. כתוב פונקציה המקבלת 2 מספרים, הפונקציה תחשב ותחזיר את סכומם
+def f3(x,y):
+    return x+y
+print(f3(4,6))   #  output 10
+# 4. 
