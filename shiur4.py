@@ -9,4 +9,9 @@ def f2(num):
 def f3(x,y):
     return x+y
 print(f3(4,6))   #  output 10
-# 4. 
+# 4. כתוב פונקציה המקבלת 3 מספרים, הפונקציה תדפיס את סכומם ותחזיר את הממוצע שלהם.
+def f4(x,y,z):
+    sum=x+y+z
+    print(sum)
+    return (sum/3)
+print(round(f4(50,65,70),3))
