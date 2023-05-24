@@ -5,6 +5,15 @@ def f1():
     print("Possitive")
   else:
     print("Negative")
+# 2. 
+def f2(x,y,z):
+  if (x<y)and(x<z):
+    return x
+  elif (y<x)and(y<z):
+    return y
+  else:
+    return z
+print(f2(5,3,4))
 #   כתוב מחשבון
 print("1 - Add +")
 print("2 - Subtract - ")
