@@ -5,7 +5,7 @@ def f1():
     print("Possitive")
   else:
     print("Negative")
-# 2. 
+# 2. כתוב פונקציה המקבלת 3 מספרים ומחזירה את המספר הקטן מביניהם
 def f2(x,y,z):
   if (x<y)and(x<z):
     return x
