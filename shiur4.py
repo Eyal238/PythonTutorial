@@ -22,5 +22,5 @@ def circle1(r):
   pie=math.pi
   P=pie*2*r
   S=pie*r*r
-  print("scope = ",P)
-  print("area = ",S)
+  print("scope = ",round(P,3))
+  print("area = ",round(S,3))
