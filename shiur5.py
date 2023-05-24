@@ -1,3 +1,9 @@
+# 1. כתוב פונקציה הקולטת מהמקלדת מספר ומדפיסה האם הוא חיובי או שלילי
+num=int(input("Enter your number:"))
+if num>0:
+  print("Possitive")
+else:
+  print("Negative")
 #   כתוב מחשבון
 print("1 - Add +")
 print("2 - Subtract - ")
