@@ -15,3 +15,12 @@ def f4(x,y,z):
     print(sum)
     return (sum/3)
 print(round(f4(50,65,70),3))
+
+# 5. כתוב פונקציה המקבלת רדיוס של מעגל, הפונקציה תדפיס את היקף ושטח המעגל
+import math
+def circle1(r):
+  pie=math.pi
+  P=pie*2*r
+  S=pie*r*r
+  print("scope = ",P)
+  print("area = ",S)
