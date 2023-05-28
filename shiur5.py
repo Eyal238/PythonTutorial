@@ -51,3 +51,22 @@ def f4(amount):
     print(50+(complete*10)+(remainder*1.2))
   elif amount==108:
     print(100)
+# 5.  לכבוד החגים החליטו בכביש אגרה-"שש" לתת הנחה של 5 אחוז בתשלום נסיעה עבור מספרי רכב שמסתיימים ב- 5 או ב-0, בכביש 6 ישנם 8 קטעי כביש, כך שכול קטע עולה לרכב פרטי 10 שקלים 
+#  במידה והרכב נסע ביום אחד מעל 4(כולל) קטעי כביש ניתנת הנחה קבועה של 5 אחוז ומעל 6(כולל) קטעי כביש הנחה של 7 אחוז. כתוב פונקציה המקבלת מספר רכב ומספר קטעי כביש ומחזירה את סכום התשלום הנדרש 
+def f5(carNum,roadsNum):
+    if (carNum%10==0)or(carNum%10==5):
+        if roadsNum<=3:
+            result=(10*roadsNum)
+        elif roadsNum==4 or roadsNum==5:
+            result=(10*roadsNum-(10*roadsNum*5/100))
+        elif roadsNum>=6 and roadsNum<=8:
+            result=(10*roadsNum-(10*roadsNum*7/100))
+        return (result-(result*5/100))
+    else:
+        if roadsNum<=3:
+            return (10*roadsNum)
+        elif roadsNum==4 or roadsNum==5:
+            return (10*roadsNum-(10*roadsNum*5/100))
+        elif roadsNum>=6 and roadsNum<=8:
+            return (10*roadsNum-(10*roadsNum*7/100))
+    
