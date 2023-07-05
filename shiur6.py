@@ -32,5 +32,23 @@ def f2():
     
 # 3.  במבחן מחשבים נבחנו חמישה תלמידים, כתוב פונקציה הקולטת את שמם של התלמידים ואת הציונים שלהם. 
 # הפונקציה תדפיס את:  א)שם התלמיד בעל הציון הגבוה ביותר.   ב) מספר התלמידים שעברו את הציון 60
+def f3():
+    i=0
+    maxGrade=0
+    count=0
+    while i<5:
+        print("Enter name",i+1,":")
+        name=input()
+        print("Enter grade",i+1,":")
+        grade=int(input())
+        if(grade>=0)and(grade<=100):
+            if (grade>maxGrade):
+                maxGrade=grade
+                maxName=name
+            if grade>59:
+                count=count+1
+            i=i+1
+    print("The name with the highest score is:",maxName)
+    print("The number of students with a score higher than 60 is:",count)
 
 
