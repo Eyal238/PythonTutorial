@@ -50,5 +50,11 @@ def f3():
             i=i+1
     print("The name with the highest score is:",maxName)
     print("The number of students with a score higher than 60 is:",count)
-
+#  כתוב פונקציה המקבלת 2 מספרים, הפונקציה תחזיר את המכפלה שלהם אך ללא שימוש בפעולת הכפל.
+def f4(x,y):
+    z=0
+    while x>0:
+        z=z+y
+        x=x-1
+    return z
 
