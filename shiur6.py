@@ -58,3 +58,19 @@ def f4(x,y):
         x=x-1
     return z
 
+#  כתוב פונקציה המקבלת מספר ובודקת האם הוא חלק מסדרת פיבונאצ'י. הפונקציה תחזיר חיובי או שלילי.
+
+def f5(n):
+   x=1
+   y=1
+   i=0
+   while i<n:
+       if n==x or n==y:
+           print("True")
+           break
+       else:
+           x=x+y
+           y=x+y
+           i=i+1
+   if i==n:
+       print("False")
