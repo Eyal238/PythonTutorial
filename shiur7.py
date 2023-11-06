@@ -25,3 +25,16 @@ def f4():
     list1=["chicken","goose","sheep","cow","cat","dog","mouse","elephant","giraffe","monkey"]
     print(list1[2:5])
     print(list1[-8:-5])
+
+# 5.
+import random
+def f5(list1):
+    num=random.randrange(1,20)
+    print(num)
+    if num in list1:
+        print("True")
+    else:
+        print("False")
+list1=[1,2,3,4,5,6,7,8,9,10]
+f5(list1)
+
