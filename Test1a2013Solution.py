@@ -30,4 +30,16 @@ def f3():
         elif(arr1[i]<100):
             arr1[i]=0
     print(arr1)
+#4.
+def f4(list1):
+    max1=0
+    max2=0
+    for i in range(10):
+      if (list1[i]>max2):
+          max2=list1[i]
+      if(max2>max1):
+          temp=max2
+          max2=max1
+          max1=temp
+    print("max1=",max1, "max2=",max2)
     
