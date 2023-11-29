@@ -31,7 +31,7 @@ def f3():
             arr1[i]=0
     print(arr1)
 #4.
-def f4(list1):
+def f4a(list1):
     max1=0
     max2=0
     for i in range(10):
@@ -42,4 +42,9 @@ def f4(list1):
           max2=max1
           max1=temp
     print("max1=",max1, "max2=",max2)
-    
+#4.
+def f4b(list1):
+    max1=(max(list1))
+    list1.remove(max1)
+    max2=max(list1)
+    print("max1=",max1,"max2=",max2)
