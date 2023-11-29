@@ -48,3 +48,8 @@ def f4b(list1):
     list1.remove(max1)
     max2=max(list1)
     print("max1=",max1,"max2=",max2)
+#4.  ניתן ראשית למיין ואז להוציא את התאים הדרושים
+def f4(list1):
+    list1.sort()
+    print(list1[9])
+    print(list1[8])
