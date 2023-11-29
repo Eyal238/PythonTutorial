@@ -30,7 +30,7 @@ def f3():
         elif(arr1[i]<100):
             arr1[i]=0
     print(arr1)
-#4.
+#4.הדרך הקלאסית
 def f4a(list1):
     max1=0
     max2=0
@@ -42,7 +42,7 @@ def f4a(list1):
           max2=max1
           max1=temp
     print("max1=",max1, "max2=",max2)
-#4.
+#4.כאן ניתן לראות את היכולות של פייתון
 def f4b(list1):
     max1=(max(list1))
     list1.remove(max1)
