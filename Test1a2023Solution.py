@@ -19,7 +19,7 @@ def f2():
         count+=1
         num=num//10
     print(count)
-#3.
+#3.    הדרך הקלאסית
 def f3():
     arr1=[]
     for i in range(5):
