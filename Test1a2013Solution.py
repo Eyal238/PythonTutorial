@@ -19,4 +19,15 @@ def f2():
         count+=1
         num=num//10
     print(count)
+#3.
+def f3():
+    arr1=[]
+    for i in range(5):
+        num=int(input("Enter number:"))
+        arr1.append(num)
+        if(arr1[i]>99):
+            arr1[i]=1
+        elif(arr1[i]<100):
+            arr1[i]=0
+    print(arr1)
     
