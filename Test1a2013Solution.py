@@ -7,3 +7,6 @@ def f1(r):
     P=2*math.pi*r
     print(round(S,3))
     print(round(P,3))
+#2.
+
+    
