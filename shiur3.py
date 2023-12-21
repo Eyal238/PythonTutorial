@@ -20,4 +20,10 @@ x=random.randrange(1,11)
 y=random.randrange(1,11)
 print(x*y)
 
+#8. כתוב פונקציה המקבלת איבר ראשון , איבר אחרון והפרש של סדרה חשבונית. הפונקציה תחשב את סכום הסדרה ותדפיס אותו.   
+def f4(a1,an,diff):
+    n=((a1+an)-diff)//diff
+    sn=(n*(a1+an))/2
+    print(sn)
+
 
