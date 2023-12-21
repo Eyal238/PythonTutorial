@@ -69,4 +69,21 @@ def f5(carNum,roadsNum):
             return (10*roadsNum-(10*roadsNum*5/100))
         elif roadsNum>=6 and roadsNum<=8:
             return (10*roadsNum-(10*roadsNum*7/100))
-    
+# 6.  תונה חנות בגדים בה יש מבצע של  80 אחוז על הפריט  השלישי הזול מביניהם.
+# כתוב פונקציה המקבלת מחירים לפני הנחה עבור 3 פריטים. הפונקציה תדפיס את העלות הכוללת בחנות עבור הלקוח לאחר ההנחה. 
+ def f1(cost1,cost2,cost3):
+    if((cost1<=cost2)and(cost1<=cost3)):
+        cost1=cost1-(cost1*80/100)
+        price=(cost2+cost3)+(cost1)
+        print(price)
+    elif(cost2<=cost1)and(cost2<=cost3):
+        cost2 = cost2 - (cost2 * 80 / 100)
+        price = (cost1 + cost3) + (cost2)
+        print(price)
+    else:
+        cost3 = cost3 - (cost3 * 80 / 100)
+        price = (cost1 + cost2) + (cost3)
+        print(price) 
+ # 7.
+
+      
