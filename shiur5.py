@@ -69,6 +69,17 @@ def f5(carNum,roadsNum):
             return (10*roadsNum-(10*roadsNum*5/100))
         elif roadsNum>=6 and roadsNum<=8:
             return (10*roadsNum-(10*roadsNum*7/100))
+# 5. פתרון נוסף
+def f5(num,unit):
+    hanacha=0
+    if((num%10==5)or(num%10==0)):
+        hanacha=0.05
+    if((unit>3)and(unit<6)):
+        hanacha=hanacha+0.05
+    elif ((unit > 5) and (unit < 9)):
+        hanacha = hanacha + 0.07
+    price=((unit*10)*(1-hanacha))
+    print(price)
 # 6.  תונה חנות בגדים בה יש מבצע של  80 אחוז על הפריט  השלישי הזול מביניהם.
 # כתוב פונקציה המקבלת מחירים לפני הנחה עבור 3 פריטים. הפונקציה תדפיס את העלות הכוללת בחנות עבור הלקוח לאחר ההנחה. 
  def f1(cost1,cost2,cost3):
