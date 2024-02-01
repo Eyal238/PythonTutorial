@@ -1,4 +1,9 @@
 
+import random
+list1=[2,4,6,8,10,12,14,16,18,20]
+list2=[1,3,5,7,9,11,13,15,17,19]
+list3=["aba","saba","hana","ana","Yossi","roni"]
+
 # 1. כתוב פונקציה המגדירה רשימה הכוללת 10 מספרים שלמים, הפונקציה תדפיס את תא 3 מהרשימה ובשורה נוספת את תאים 2 עד 4 כולל מהרשימה ותאים חמישי עד הסוף
 def f1():
     list1=[1,2,3,4,5,6,7,8,9,10]
@@ -36,5 +41,24 @@ def f5(list1):
     else:
         print("False")
 list1=[1,2,3,4,5,6,7,8,9,10]
-f5(list1)
+# 6.
+def f6():
+    list1.extend(list2)
+    list1.sort()
+    i=len(list1)-1
+    while(i>0):
+        print(list1[i],end=" ")
+        i=i-1
+# 7.
+def f7():
+    str=""
+    i=0
+    while(i<len(list3)):
+        if(i!=(len(list3)-1)):
+             str=str+list3[i]+","
+        else:
+            str = str + list3[i]
+        i=i+1
+    print(str)
+
 
