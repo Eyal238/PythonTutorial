@@ -9,6 +9,16 @@ def f1(str1):
   print(sum)
 
 # 2.
+def f2():
+    sum=0
+    num = random.randrange(100, 1000)
+    print(num)
+    while(num>0):
+        sum=(num%10)+sum
+        num=num//10
+    print(sum)
+
+
 #7. כתוב פונקציה המקבלת איבר ראשון של סדרה חשבונית ואת הפרש הסדרה. הפונקציה תדפיס את 10 האיברים של הסדרה.
 def f3(a1,diff):
     for i in range(1,11):
