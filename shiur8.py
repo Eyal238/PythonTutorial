@@ -18,6 +18,15 @@ def f2():
         num=num//10
     print(sum)
 
+# 3.
+def f3():
+    multiplication=1
+    num = random.randrange(100, 1000)
+    print(num)
+    while(num>0):
+        multiplication=(num%10)*multiplication
+        num=num//10
+    print(multiplication)
 
 #7. כתוב פונקציה המקבלת איבר ראשון של סדרה חשבונית ואת הפרש הסדרה. הפונקציה תדפיס את 10 האיברים של הסדרה.
 def f3(a1,diff):
