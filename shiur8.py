@@ -27,6 +27,15 @@ def f3():
         multiplication=(num%10)*multiplication
         num=num//10
     print(multiplication)
+# 4.
+def f4(list2):
+    print(list2)
+    for i in range(len(list2)):
+        if list2[i]>0:
+           list2[i]=1
+        else:
+           list2[i]=-1
+    print(list2)
 
 #7. כתוב פונקציה המקבלת איבר ראשון של סדרה חשבונית ואת הפרש הסדרה. הפונקציה תדפיס את 10 האיברים של הסדרה.
 def f3(a1,diff):
