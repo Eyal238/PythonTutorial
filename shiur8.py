@@ -36,6 +36,19 @@ def f4(list2):
         else:
            list2[i]=-1
     print(list2)
+# 5.
+def f5():
+    list1=[]
+    list2=[]
+    for i in range(10):
+        num=int(input("Enter num:"))
+        if num%2==0:
+            list1.append(num)
+        else:
+            list2.append(num)
+    print(list1)
+    print(list2)
+
 
 #7. כתוב פונקציה המקבלת איבר ראשון של סדרה חשבונית ואת הפרש הסדרה. הפונקציה תדפיס את 10 האיברים של הסדרה.
 def f3(a1,diff):
