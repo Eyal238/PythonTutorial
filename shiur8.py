@@ -54,4 +54,9 @@ def f5():
 def f3(a1,diff):
     for i in range(1,11):
         print(a1+(diff*(i-1)),end=" ")
-
+# 9.
+def f9(height):
+    for i in range(height):
+        for j in range(i+1):
+            print("*",end=" ")
+        print()
