@@ -1,0 +1,10 @@
+#  כתוב פונקציה המקבלת רשימת מספרים, הפונקציה תחזיר תשובה בוליאנית האם הפונקציה סימטרית
+def f1(list1):
+    count=0
+    for i in range(len(list1)//2):
+        if(list1[i]!=list1[len(list1)-(i+1)]):
+            return False
+        else:
+           count+=1
+    if(count==(len(list1)//2)):
+        return True
