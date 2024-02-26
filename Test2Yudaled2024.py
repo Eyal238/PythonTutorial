@@ -27,5 +27,12 @@ def f3(speedCar,idCar):
         return True
     else:
         return False
+# 4. כתוב פונקציה המקבלת רשימה ריקה,הפונקציה תקלוט 10 מספרים שלמים ותוסיף אותם לרשימה בתנאי שהם גדולים מ-0 וזוגיים        
+def f4(list1):
+    for i in range(10):
+        num=int(input("Enter number:"))
+        if((num>=0)and(num%2==0)):
+            list1.append(num)
+    print(list1)        
 
 
