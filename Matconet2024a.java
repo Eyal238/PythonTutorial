@@ -1,3 +1,4 @@
+# 
 def f1():
     x1=random.randrange(0,11)
     y1=random.randint(0,10)
@@ -12,3 +13,12 @@ def f1():
     else:
             x3 = int(input("Enter x3:"))
             y3 = int(input("Enter y3:"))
+#    
+def f2(list1):
+    for i in range(10):
+        num=random.randint(0,100)
+        list1.append(num)
+    print(list1)
+    list1.sort()
+    list1.reverse()
+    print(list1)    
